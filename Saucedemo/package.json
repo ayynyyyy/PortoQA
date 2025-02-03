@@ -1,0 +1,16 @@
+{
+  "name": "automate",
+  "version": "1.0.0",
+  "description": "Automation Saucedemo",
+  "main": "index.js",
+  "author": "Ayynyyy",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^14.0.1",
+    "prettier": "^3.4.2"
+  },
+  "scripts":{
+  "cy:open" : "cypress open",
+  "cy:run": "cypress run"
+  }
+}
